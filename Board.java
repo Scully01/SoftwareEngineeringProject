@@ -8,7 +8,6 @@ import java.awt.event.KeyEvent;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
-
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
@@ -28,7 +27,7 @@ public class Board extends JPanel implements Runnable {
 	public static int snakesCount = 0;
 	public static int laddersCount = 0;
 	public static int trapsCount = 0;
-	//SSound audio = new Sound();
+	Sound audio = new Sound();
 	
 
 	public void addMessage(String line) {
@@ -86,7 +85,7 @@ public class Board extends JPanel implements Runnable {
 			System.exit(0);
 		}
 		playerCount=n;
-		//Sound.music("theme.wav");
+		Sound.music("theme.wav");
 		Container contentPane = frame.getContentPane();
 		contentPane.setLayout(new BorderLayout());
 

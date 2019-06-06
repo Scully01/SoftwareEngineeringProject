@@ -21,7 +21,6 @@ public class SLGame {
 
 	public static int[] ladderBs = new int[10];
 	public static int[] snakeHs = new int[10];
-
 	public static int[] ladderTs = new int[10];
 	public static int[] snakeTs = new int[10];
 	
@@ -764,3 +763,4 @@ public class SLGame {
 
 	}
 }
+
