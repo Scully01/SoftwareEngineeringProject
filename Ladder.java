@@ -2,10 +2,10 @@ public class Ladder
 {
    private int bottom;
    private int top;
-   public Ladder(int ladderT, int ladderH)
+   public Ladder(int b, int t)
    {
-       bottom = ladderT;
-       top = ladderH;
+       bottom = b;
+       top = t;
    }
    public int getBottom() { return bottom; }
    public int getTop() { return top; } 
