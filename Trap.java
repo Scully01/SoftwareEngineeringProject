@@ -2,10 +2,10 @@
 public class Trap {
 	private int location;
 	private int duration;
-	public Trap(int trapL, int trapT)
+	public Trap(int loc, int dur)
 	{
-		location = trapL;
-		duration = trapT;
+		location = loc;
+		duration = dur;
 	}
 	public int getLocation()
 	{
